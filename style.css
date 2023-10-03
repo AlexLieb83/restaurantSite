@@ -30,9 +30,21 @@ h6 {
   color: black;
 }
 
-/* hide on smaller screen */
+/* hide navbar on smaller screen */
 @media (max-width: 992px) {
   #navbar {
     display: none;
   }
+}
+
+/* Header */
+.bg-img {
+  background-image: url("./assets/pizza-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.btn {
+  min-width: 250px;
 }
