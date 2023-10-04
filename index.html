@@ -67,7 +67,65 @@
     <div class="container-fluid bg-black text-white py-5 display-4" id="menu">
       <div class="container">
         <h1 class="text-center display-2 mb-5">MENU</h1>
-        <div></div>
+        <div class="text-enter border border-dark">
+          <div class="d-flex">
+            <a
+              href=""
+              onclick="openMenu(event, 'Pizza');"
+              class="col-4 tablink p-3 hover-red"
+              >Pizza</a
+            >
+            <a
+              href=""
+              onclick="openMenu(event, 'Pasta');"
+              class="col-4 tablink p-3 hover-red"
+              >Pasta</a
+            >
+            <a
+              href=""
+              onclick="openMenu(event, 'Starters');"
+              class="col-4 tablink p-3 hover-red"
+              >Starters</a
+            >
+          </div>
+        </div>
+
+        <!-- Pizza Menu -->
+        <div class="container-fluid menu p-4 bg-white" id="Pizza">
+          <!-- Margherita -->
+          <div class="d-flex justify-content-between align-items baseline">
+            <h1 class="mb-0 display-3">Margherita</h1>
+            <span class="badge bg-dark text-white">$12.50</span>
+          </div>
+          <p class="text-muted">Fresh tomatoes, mozerella, and basil</p>
+          <hr class="text-muted" />
+        </div>
+
+        <!-- Pasta Menu -->
+        <div class="container-fluid menu p-4 bg-white" id="Pasta">
+          <!-- Lasagna -->
+          <div class="d-flex justify-content-between align-items baseline">
+            <h1 class="mb-0 display-3">Lasagna</h1>
+            <span class="badge bg-dark text-white">$13.50</span>
+          </div>
+          <p class="text-muted">
+            Homemade sauce, mozzerella, parmesan, ground beef
+          </p>
+          <hr class="text-muted" />
+        </div>
+
+        <!-- Starters Menu -->
+        <div class="container-fluid menu p-4 bg-white" id="Starters">
+          <!-- Today's Soup -->
+          <div class="d-flex justify-content-between align-items baseline">
+            <h1 class="mb-0 display-3">
+              <b>Today's Soup</b>
+            </h1>
+            <span class="badge bg-dark text-white">$5.50</span>
+          </div>
+          <p class="text-muted">Ask your waiter</p>
+          <hr class="text-muted" />
+        </div>
       </div>
     </div>
   </body>
