@@ -48,3 +48,49 @@ h6 {
 .btn {
   min-width: 250px;
 }
+
+.btn.hover-btn:hover {
+  background-color: lightgray;
+  color: black;
+  text-decoration: underline;
+}
+
+/* menu section */
+.bg-black {
+  background-color: black;
+}
+
+.hover-red:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+}
+
+.active-tab {
+  background-color: red;
+  color: white;
+}
+
+.border-dark {
+  border-color: darkgray;
+}
+
+.badge {
+  padding: 0.6em 0.8em;
+}
+
+.small-tag {
+  padding: 0.3em 0.3em;
+}
+
+.bg-red {
+  background-color: red;
+  color: white;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+.menu h1 {
+  color: black;
+}

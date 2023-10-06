@@ -67,22 +67,23 @@
     <div class="container-fluid bg-black text-white py-5 display-4" id="menu">
       <div class="container">
         <h1 class="text-center display-2 mb-5">MENU</h1>
-        <div class="text-enter border border-dark">
+        <div class="text-center border border-dark">
           <div class="d-flex">
             <a
-              href=""
+              id="mainLink"
+              href="javascript:void(0)"
               onclick="openMenu(event, 'Pizza');"
               class="col-4 tablink p-3 hover-red"
               >Pizza</a
             >
             <a
-              href=""
+              href="javascript:void(0)"
               onclick="openMenu(event, 'Pasta');"
               class="col-4 tablink p-3 hover-red"
               >Pasta</a
             >
             <a
-              href=""
+              href="javascript:void(0)"
               onclick="openMenu(event, 'Starters');"
               class="col-4 tablink p-3 hover-red"
               >Starters</a
@@ -119,7 +120,8 @@
           <!-- Today's Soup -->
           <div class="d-flex justify-content-between align-items baseline">
             <h1 class="mb-0 display-3">
-              <b>Today's Soup</b>
+              <b>Today's Soup </b
+              ><span class="badge bg-grey small-tag">Seasonal</span>
             </h1>
             <span class="badge bg-dark text-white">$5.50</span>
           </div>
