@@ -66,14 +66,15 @@
     <!-- Menu Container -->
     <div class="container-fluid bg-black text-white py-5 display-4" id="menu">
       <div class="container">
-        <h1 class="text-center display-2 mb-5">MENU</h1>
+        <h1 class="text-center display-2 mb-5">THE MENU</h1>
+
         <div class="text-center border border-dark">
           <div class="d-flex">
             <a
-              id="mainLink"
               href="javascript:void(0)"
               onclick="openMenu(event, 'Pizza');"
               class="col-4 tablink p-3 hover-red"
+              id="mainLink"
               >Pizza</a
             >
             <a
@@ -84,49 +85,152 @@
             >
             <a
               href="javascript:void(0)"
-              onclick="openMenu(event, 'Starters');"
+              onclick="openMenu(event, 'Starter');"
               class="col-4 tablink p-3 hover-red"
-              >Starters</a
+              >Starter</a
             >
           </div>
         </div>
 
         <!-- Pizza Menu -->
-        <div class="container-fluid menu p-4 bg-white" id="Pizza">
+        <div id="Pizza" class="container-fluid menu p-4 bg-white">
           <!-- Margherita -->
-          <div class="d-flex justify-content-between align-items baseline">
-            <h1 class="mb-0 display-3">Margherita</h1>
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3"><b>Margherita</b></h1>
             <span class="badge bg-dark text-white">$12.50</span>
           </div>
-          <p class="text-muted">Fresh tomatoes, mozerella, and basil</p>
+          <p class="text-muted">
+            Fresh tomatoes, fresh mozzarella, fresh basil
+          </p>
           <hr class="text-muted" />
+
+          <!-- Formaggio -->
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3"><b>Formaggio</b></h1>
+            <span class="badge bg-dark text-white">$15.50</span>
+          </div>
+          <p class="text-muted">
+            Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)
+          </p>
+          <hr class="text-muted" />
+
+          <!-- Chicken -->
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3"><b>Chicken</b></h1>
+            <span class="badge bg-dark text-white">$17.00</span>
+          </div>
+          <p class="text-muted">Fresh tomatoes, mozzarella, chicken, onions</p>
+          <hr class="text-muted" />
+
+          <!-- Pineapple'o'clock -->
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3"><b>Pineapple'o'clock</b></h1>
+            <span class="badge bg-dark text-white">$16.50</span>
+          </div>
+          <p class="text-muted">
+            Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
+          </p>
+          <hr class="text-muted" />
+
+          <!-- Meat Town -->
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3">
+              <b>Meat Town</b> <span class="badge bg-red small-tag">Hot!</span>
+            </h1>
+            <span class="badge bg-dark text-white">$20.00</span>
+          </div>
+          <p class="text-muted">
+            Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef,
+            chicken
+          </p>
+          <hr class="text-muted" />
+
+          <!-- Parma -->
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3">
+              <b>Parma</b> <span class="badge bg-grey small-tag">New</span>
+            </h1>
+            <span class="badge bg-dark text-white">$21.50</span>
+          </div>
+          <p class="text-muted">
+            Fresh tomatoes, mozzarella, parma, bacon, fresh arugula
+          </p>
         </div>
 
         <!-- Pasta Menu -->
-        <div class="container-fluid menu p-4 bg-white" id="Pasta">
+        <div id="Pasta" class="container-fluid menu p-4 bg-white">
           <!-- Lasagna -->
-          <div class="d-flex justify-content-between align-items baseline">
-            <h1 class="mb-0 display-3">Lasagna</h1>
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3">
+              <b>Lasagna </b
+              ><span class="badge bg-grey small-tag">Popular</span>
+            </h1>
             <span class="badge bg-dark text-white">$13.50</span>
           </div>
           <p class="text-muted">
-            Homemade sauce, mozzerella, parmesan, ground beef
+            Special sauce, mozzarella, parmesan, ground beef
           </p>
           <hr class="text-muted" />
+
+          <!-- Ravioli -->
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3"><b>Ravioli</b></h1>
+            <span class="badge bg-dark text-white">$14.50</span>
+          </div>
+          <p class="text-muted">Ravioli filled with cheese</p>
+          <hr class="text-muted" />
+
+          <!-- Spaghetti Classica -->
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3"><b>Spaghetti Classica</b></h1>
+            <span class="badge bg-dark text-white">$11.00</span>
+          </div>
+          <p class="text-muted">Fresh tomatoes, onions, ground beef</p>
+          <hr class="text-muted" />
+
+          <!-- Seafood pasta -->
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3"><b>Seafood pasta</b></h1>
+            <span class="badge bg-dark text-white">$25.50</span>
+          </div>
+          <p class="text-muted">Salmon, shrimp, lobster, garlic</p>
         </div>
 
-        <!-- Starters Menu -->
-        <div class="container-fluid menu p-4 bg-white" id="Starters">
+        <!-- Starter Menu -->
+        <div id="Starter" class="container-fluid menu p-4 bg-white">
           <!-- Today's Soup -->
-          <div class="d-flex justify-content-between align-items baseline">
+          <div class="d-flex justify-content-between align-items-baseline">
             <h1 class="mb-0 display-3">
               <b>Today's Soup </b
-              ><span class="badge bg-gray small-tag">Seasonal</span>
+              ><span class="badge bg-grey small-tag">Seasonal</span>
             </h1>
             <span class="badge bg-dark text-white">$5.50</span>
           </div>
-          <p class="text-muted">Ask your waiter</p>
+          <p class="text-muted">Ask the waiter</p>
           <hr class="text-muted" />
+
+          <!-- Bruschetta -->
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3"><b>Bruschetta</b></h1>
+            <span class="badge bg-dark text-white">$8.50</span>
+          </div>
+          <p class="text-muted">Bread with pesto, tomatoes, onion, garlic</p>
+          <hr class="text-muted" />
+
+          <!-- Garlic bread -->
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3"><b>Garlic bread</b></h1>
+            <span class="badge bg-dark text-white">$9.59</span>
+          </div>
+          <p class="text-muted">Grilled ciabatta, garlic butter, onions</p>
+          <hr class="text-muted" />
+
+          <!-- Tomozzarella -->
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h1 class="mb-0 display-3"><b>Tomozzarella</b></h1>
+            <span class="badge bg-dark text-white">$10.50</span>
+          </div>
+          <p class="text-muted">Tomatoes and mozzarella</p>
         </div>
       </div>
     </div>
@@ -248,5 +352,9 @@
         </form>
       </div>
     </div>
+
+    <footer class="text-center bg-dark text-white py-4">
+      <p class="fs-3 mb-0">Built with Bootstrap and CSS</p>
+    </footer>
   </body>
 </html>
