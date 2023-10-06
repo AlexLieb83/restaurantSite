@@ -87,10 +87,21 @@ h6 {
   color: white;
 }
 
-.bg-grey {
-  background-color: grey;
+.bg-gray {
+  background-color: gray;
 }
 
 .menu h1 {
   color: black;
+}
+
+/* black and white */
+.img-blackandwhite {
+  filter: grayscale(100%);
+}
+
+/* contact form */
+.extra-large {
+  height: 60px;
+  font-size: 1.8rem;
 }
