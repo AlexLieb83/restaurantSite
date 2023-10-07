@@ -25,7 +25,7 @@ const reservationSchema = new mongoose.Schema({
   name: String,
   people: Number,
   date: Date,
-  message: String,
+  specialReq: String,
 });
 
 const Reservation = mongoose.model("Reservation", reservationSchema);
@@ -42,9 +42,9 @@ app.post("/submit", async (req, res) => {
   try {
     const newReservation = new Reservation(formData);
     await newReservation.save();
-    res.redirect("/success");
+    res.redirect("/?success");
   } catch (error) {
-    res.redirect("/error");
+    res.redirect("/?error");
   }
 });
 
