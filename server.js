@@ -48,6 +48,10 @@ app.post("/submit", async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.render("index.html");
+});
+
 //connect to server
 const PORT = 3005;
 app.listen(PORT, () => {
